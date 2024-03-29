@@ -1,5 +1,6 @@
 mod field;
 pub use field::*;
+pub use catwalk_derive::Catwalk;
 
 /// All of the core functionality every model will need
 /// in order to interface with the database.
